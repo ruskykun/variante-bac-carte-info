@@ -1,0 +1,13 @@
+Ana Paris Franta 10 11 2022
+Andrei Munchen Germania 13 1 2023
+George Londra Anglia 28 11 2022
+Alexandru NewYork America 29 1 2023
+Adrian Roma Italia 25 10 2022
+George Bucuresti Romania 3 12 2022
+Darius Madrid Spania 24 10 2022
+Cosmina Moscova Rusia 22 9 2022
+George Oradea Romania 4 2 2023
+Gabriel Roma Italia 12 11 2022
+George Berlin Germania 19 2 2023
+Iulia Kiev Ucraina 19 2 2023
+Daniela Paris Franta 5 13 2022

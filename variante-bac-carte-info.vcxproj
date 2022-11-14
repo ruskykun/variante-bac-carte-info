@@ -129,6 +129,17 @@
   <ItemGroup>
     <ClCompile Include="variante-bac-carte-info.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functii.h" />
+    <ClInclude Include="solutii.h" />
+    <ClInclude Include="structuri.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="consultatii.txt" />
+    <Text Include="excursii.txt" />
+    <Text Include="medalii.txt" />
+    <Text Include="melodii.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

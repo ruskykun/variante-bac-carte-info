@@ -1,0 +1,12 @@
+George 1A 12 11 2022
+Alex 1A 28 11 2022
+Mihai 2B 10 8 2019
+Andrea 2A 1 1 2023
+Iulia 1A 27 8 2019
+Maria 0A 14 12 2022
+Nicoleta 0B 4 2 2023
+Adrian 0A 10 8 2019
+Cosmin 2A 9 2 2023
+Darius 0B 10 8 2022
+Marius 1A 24 11 2022
+Paul 2B 10 8 2019
