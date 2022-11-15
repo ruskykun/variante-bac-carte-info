@@ -4,7 +4,7 @@
 
 // Problema 1
 // Se considera declararea urmatoare:
-// struct melodie(scrisa in structuri.h)
+// struct melodie(Melodie in structuri.h)
 //
 // Structura melodie memoreaza numele si
 // autorul melodiei, tara in care s-a lansat
@@ -42,7 +42,7 @@ void solutiePb1() {
 
 // Problema 2
 // Se considera declararea urmatoare :
-// struct medalie(scrisa in structuri.h)
+// struct medalie(Medalie in structuri.h)
 //
 // Structura medalie memoreaza numele si judetul
 // unui sportiv ce a obtinut medalie la o competitie.
@@ -70,8 +70,8 @@ void solutiePb2() {
 
 // Problema 3
 // Se considera declararile urmatoare:
-// struct data(scrisa in structuri.h);
-// struct consultatie(scrisa in structuri.h)
+// struct data(Data in structuri.h);
+// struct consultatie(Consultatie in structuri.h)
 //
 // Structura data memoreaza o data calendaristica.
 // Structura consultatie memoreaza numele unui
@@ -95,8 +95,8 @@ void solutiePb3() {
 
 // Problema 4
 // Se considera urmatoarea declaratie:
-// struct data(scrisa in structuri.h);
-// struct excursie(scrisa in structuri.h)
+// struct data(Data in structuri.h);
+// struct excursie(Excursie in structuri.h)
 // 
 // Structura data memoreaza o data calendaristica.
 // Structura excursie memoreaza numele persoanei
@@ -121,4 +121,109 @@ void solutiePb4() {
 	string numed = "George"; // Sa zicem ca e dat de problema.
 	rezolvarePb4(e, n, numed);
 }
+
+// Problema 5
+// Se considera urmatoarea declaratie:
+// struct angajat(Angajat in structuri.h)
+// 
+// Structura angajat memoreaza numele, functia indeplinita,
+// departamentul in care lucreaza, salariul de incadrare
+// (salariu_baza) al unui angajat. Alte campuri reprezinta:
+// salariu_obt - salariul lunar obtinut de angajat, ora_sp
+// - suma platita pentru o ora suplimentara, nr_ore_sp -
+// numar de ore suplimentare efectuate de catre angajat.
+// Campul salariu_obt este necompletat initial si se va
+// completa cu suma dintre salariu_baza, total_sporuri
+// si suma platita pentru ore suplimentare. Vectorul a
+// memoreaza datele pentru 300 de angajati ai unei firme.
+// 
+// Scrie [...] pentru :
+// a) Completarea campului salariu_obt pentru toti angajatii.
+// b) Afisarea salariului de valoare maxima, obtinut de
+// catre angajatii din departamentul de productie.
+// c) Afisarea numarului total de ore suplimentare efectuat
+// de catre angajatii din departamentul marketing.
+
+void solutiePb5() {
+	Angajat a[300];
+	int n;
+	citirePb5(a, n);
+	cout << "a) Salariul de valoare maxima obtinut de angajatii de la productie este : " << salariuMaxProductie(a, n) << endl;
+	cout << "b) Numarul total de ore suplimentare ale angajatiilor de la marketing este : " << totalOreMarketing(a, n) << endl;
+}
+
+// Problema 6
+// Se considera urmatoarea declaratie:
+// struct student(Student in structuri.h)
+// 
+// Structura student memoreaza numele, grupa, anul de studiu
+// al unui student, numarul de credite obtiute la disciplinele
+// de studiu (nr_credite). Campul bursa este necompletat initial
+// si se va completa cu valoarea "Da", daca studentul va primi
+// bursa sau "Nu", in caz contrar. 
+// Conditia de primire a bursei este sa aiba minimum 30
+// de credite obtinute.
+// Vectorul st memoreaza datele pentru 300 studenti.
+// 
+// Scrie [...] pentru :
+// a) Completarea campului bursa pentru studenti.
+// b) Afisarea datelor studentilor (nume, an studiu, grupa)
+// pentru care vor primi bursa.
+
+void solutiePb6() {
+	Student st[300];
+	int n;
+	citirePb6(st, n);
+	cout << "Datele studentilor care primesc bursa sunt :" << endl;
+	afisareDateStudentiBursa(st, n);
+}
+
+// Problema 7
+// Se considera declararile urmoatoare:
+// struct examinare(Examinare in structuri.h);
+// struct student(StudentExaminare in structuri.h)
+// 
+// Structura examinare memoreaza disciplina de studiu, tipul
+// de examinare al disciplini (scris, oral, proiect) si
+// numarul de credite obtinute la examinare [0,7]. Structura
+// student memoreaza numele, grupa, anul de studiu, numarul
+// total de credite obtinute la fiecare disciplina (dat de
+// vectorul e). Vectorul st memoreaza informatii pentru 200
+// de studenti.
+// 
+// Scrie [...] pentru :
+// a) Completarea campului nr_total_credite pt. toti studentii;
+// b) Afisarea datelor studentilor (nume, an studiu, grupa,
+// disciplina) care au obtinut credite la proiecte.
+// c) Afisarea numarului total de credite de valoare
+// maxima obtinut de studenti.
+
+void solutiePb7() {
+	StudentExaminare st[200];
+	int n;
+	citirePb7(st, n);
+	cout << "a) Datele elevilor care au luat puncte la proiecte sunt :" << endl;
+	afisareDateDacaCrediteProiecte(st, n);
+	cout << endl << "b) Numarul total de punctaje de valoare maxima : " << nrTotalPunctajMaximStudenti(st, n) << endl;
+}
+
+// Problema 8
+// Se considera declararile urmatoare:
+// struct data(Data in structuri.h);
+// struct spectacol(Spectacol in structuri.h)
+// 
+// Structura data memoreaza o data calendaristica. Structura
+// spectacol memoreaza denumirea, autorul, data desfasurarii
+// unui spectacol (data_sp). Campul nr_bilete reprezinta
+// numarul de bilete vandute pentru spectacol. Campul pret
+// reprezinta pretul unui bilet la spectacol.
+// Vectorul sp memoreaza date despre 50 de spectacole.
+// 
+// Scrie [...] pentru :
+// 
+// a) Determinarea si afisarea sumei incasate din vanzarea
+// biletelor pentru toate spectacolele desfasurate in
+// luna mai din anul 2019.
+// b) Determinarea si afisarea datelor calendaristice in care
+// au fost sustinute spectacole cu piese de I.L.Caragiale.
 
