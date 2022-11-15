@@ -324,6 +324,84 @@ int nrTotalPunctajMaximStudenti(StudentExaminare st[], int n) {
 
 // Pentru Problema 8
 
-void citirePb8() {
+void citirePb8(Spectacol sp[], int& n) {
+	ifstream f("spectacole.txt");
+	n = 0;
+	while (!f.eof()) {
+		Spectacol spectacol;
+		Data data;
+		f >> spectacol.denumire;
+		f >> spectacol.autor;
+		f >> data.zi;
+		f >> data.luna;
+		f >> data.an;
+		spectacol.data_sp = data;
+		f >> spectacol.nr_bilete;
+		f >> spectacol.pret;
 
+		sp[n] = spectacol;
+		n++;
+	}
+	f.close();
 }
+
+int sumaIncasataMai2019(Spectacol sp[], int n) {
+	int suma = 0;
+	for (int i = 0; i < n; i++) {
+		if (sp[i].data_sp.luna == 5 && sp[i].data_sp.an == 2019) {
+			suma += sp[i].nr_bilete * sp[i].pret;
+		}
+	}
+	return suma;
+}
+
+void afisareDateILCaragiale(Spectacol sp[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (sp[i].autor == "I.L.Caragiale") {
+			sp[i].afisareData();
+		}
+	}
+}
+
+// Pentru Problema 9
+
+void citirePb9(Conferinta c[], int& n) {
+	ifstream f("conferinte.txt");
+	n = 0;
+	while (!f.eof()) {
+		Conferinta conferinta;
+		Data data;
+		f >> conferinta.denumire;
+		f >> conferinta.tara;
+		f >> conferinta.oras;
+		f >> conferinta.nume;
+		f >> conferinta.tematica;
+		f >> data.zi;
+		f >> data.luna;
+		f >> data.an;
+		conferinta.data_conf = data;
+		f >> conferinta.tip_inreg;
+
+		c[n] = conferinta;
+		n++;
+	}
+	f.close();
+}
+
+void afisareNumeLectoriArticole2019(Conferinta c[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (c[i].data_conf.an == 2019 && c[i].tematica == "IT" && c[i].tip_inreg == "lector" && (c[i].tara == "Romania" || c[i].tara == "SUA" || c[i].tara == "Japonia")) {
+			cout << c[i].nume << endl;
+		}
+	}
+}
+
+void afisareNumeParticipantiAprilie2019Iasi(Conferinta c[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (c[i].data_conf.luna == 4 && c[i].data_conf.an == 2019 && c[i].oras == "Iasi" && c[i].tara == "Romania") {
+			cout << c[i].nume << endl;
+		}
+	}
+}
+
+

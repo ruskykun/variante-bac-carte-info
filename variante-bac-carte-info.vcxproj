@@ -136,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="angajati.txt" />
+    <Text Include="conferinte.txt" />
     <Text Include="consultatii.txt" />
     <Text Include="excursii.txt" />
     <Text Include="medalii.txt" />

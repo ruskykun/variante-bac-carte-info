@@ -114,4 +114,22 @@ struct Spectacol {
 	Data data_sp;
 	int nr_bilete;
 	int pret;
+
+	void afisareData() {
+		cout << data_sp.zi << ".";
+		if (data_sp.luna < 10) {
+			cout << "0";
+		}
+		cout << data_sp.luna << "." << data_sp.an << endl;
+	}
+};
+
+struct Conferinta {
+	string denumire;
+	string oras;
+	string tara;
+	string tematica;
+	Data data_conf;
+	string nume;
+	string tip_inreg;
 };

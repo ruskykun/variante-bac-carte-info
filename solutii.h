@@ -227,3 +227,46 @@ void solutiePb7() {
 // b) Determinarea si afisarea datelor calendaristice in care
 // au fost sustinute spectacole cu piese de I.L.Caragiale.
 
+void solutiePb8() {
+	Spectacol sp[50];
+	int n;
+	citirePb8(sp, n);
+	cout << "a) Suma incasata in mai 2019 este : " << sumaIncasataMai2019(sp, n) << endl << endl;
+	cout << "b) Datele spectacolelor de I.L.Caragiale sunt :" << endl;
+	afisareDateILCaragiale(sp, n);
+}
+
+// Problema 9
+// Se considera declararile urmatoare:
+// struct data(Data in structuri.h);
+// struct conferinta(Conferinta in structuri.h)
+// 
+// Structura data memoreaza o data calendaristica.
+// Structura conferinta memoreaza prin vectorul e,
+// date despre participantii la o conferinta.
+// - denumirea, tematica, data (data_conf),
+// locul de desfasurare (oras si tara).
+// - nume reprezinta numele unui participant
+// la conferinta.
+// - tip_inreg reprezinta tipul de inregistrare
+// la conferinta: lector sau participant
+// 
+// Scrie [...] afiseaza :
+// 
+// a) Numele lectorilor care au prezentat articole
+// in anul 2019, la conferinte IT sustinute
+// in Romania, SUA si Japonia.
+// b) Numele participantilor din luna aprilie,
+// anul 2019, la conferintele de medicina
+// sustinute la Iasi si numarul lor.
+
+void solutiePb9() {
+	Conferinta c[100];
+	int n;
+	citirePb9(c, n);
+	cout << "a) Numele lectorilor care se incadreaza sunt :" << endl;
+	afisareNumeLectoriArticole2019(c, n);
+	cout << endl << "b) Numele participantilor care se incadreaza sunt :" << endl;
+	afisareNumeParticipantiAprilie2019Iasi(c, n);
+}
+
