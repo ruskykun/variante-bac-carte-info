@@ -16,6 +16,39 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Variante">
+      <UniqueIdentifier>{68d6499c-7291-45c6-bb7e-85c74e364b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 1">
+      <UniqueIdentifier>{27b201ce-49ac-4c1b-8348-3333a4981dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 2">
+      <UniqueIdentifier>{33c26a98-acf1-4753-81f8-904a422fe4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 3">
+      <UniqueIdentifier>{0b7e9f4a-cece-4d07-8535-a2fb37076d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 4">
+      <UniqueIdentifier>{29f008a0-2813-4a66-b7e1-327927517abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 5">
+      <UniqueIdentifier>{2cd8e09b-2a11-42dc-bae2-2c4faf9ce82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 6">
+      <UniqueIdentifier>{bab2428b-53fc-4782-b23d-c29a8dd9055e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 7">
+      <UniqueIdentifier>{62889cea-c453-4995-a2cf-c6661cef5e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 8">
+      <UniqueIdentifier>{c3f64ade-86cc-4f4c-8380-fb770e32f01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 9">
+      <UniqueIdentifier>{1e8f527a-6dfe-441b-b6bd-837083635d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 10">
+      <UniqueIdentifier>{591e91cb-2e8c-4598-a8d5-4ff70f303d00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="variante-bac-carte-info.cpp">
@@ -31,6 +64,96 @@
     </ClInclude>
     <ClInclude Include="solutii.h">
       <Filter>Probleme\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1-functii.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1-structuri.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-10.h">
+      <Filter>Variante\Varianta 10</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-10-functii.h">
+      <Filter>Variante\Varianta 10</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-10-structuri.h">
+      <Filter>Variante\Varianta 10</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2-functii.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2-structuri.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-functii.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-structuri.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4-functii.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4-structuri.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5-functii.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5-structuri.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-functii.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-structuri.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-functii.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-structuri.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-functii.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-structuri.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9.h">
+      <Filter>Variante\Varianta 9</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9-functii.h">
+      <Filter>Variante\Varianta 9</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9-structuri.h">
+      <Filter>Variante\Varianta 9</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +183,15 @@
     </Text>
     <Text Include="conferinte.txt">
       <Filter>Probleme\Resource Files</Filter>
+    </Text>
+    <Text Include="varianta1subiectul3problema2.txt">
+      <Filter>Variante\Varianta 1</Filter>
+    </Text>
+    <Text Include="varianta1subiectul3problema3.txt">
+      <Filter>Variante\Varianta 1</Filter>
+    </Text>
+    <Text Include="varianta2subiectul3problema3.txt">
+      <Filter>Variante\Varianta 2</Filter>
     </Text>
   </ItemGroup>
 </Project>

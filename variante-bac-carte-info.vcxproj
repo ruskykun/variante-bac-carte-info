@@ -133,6 +133,36 @@
     <ClInclude Include="functii.h" />
     <ClInclude Include="solutii.h" />
     <ClInclude Include="structuri.h" />
+    <ClInclude Include="varianta-1-functii.h" />
+    <ClInclude Include="varianta-1-structuri.h" />
+    <ClInclude Include="varianta-1.h" />
+    <ClInclude Include="varianta-10-functii.h" />
+    <ClInclude Include="varianta-10-structuri.h" />
+    <ClInclude Include="varianta-10.h" />
+    <ClInclude Include="varianta-2-functii.h" />
+    <ClInclude Include="varianta-2-structuri.h" />
+    <ClInclude Include="varianta-2.h" />
+    <ClInclude Include="varianta-3-functii.h" />
+    <ClInclude Include="varianta-3-structuri.h" />
+    <ClInclude Include="varianta-3.h" />
+    <ClInclude Include="varianta-4-functii.h" />
+    <ClInclude Include="varianta-4-structuri.h" />
+    <ClInclude Include="varianta-4.h" />
+    <ClInclude Include="varianta-5-functii.h" />
+    <ClInclude Include="varianta-5-structuri.h" />
+    <ClInclude Include="varianta-5.h" />
+    <ClInclude Include="varianta-6-functii.h" />
+    <ClInclude Include="varianta-6-structuri.h" />
+    <ClInclude Include="varianta-6.h" />
+    <ClInclude Include="varianta-7-functii.h" />
+    <ClInclude Include="varianta-7-structuri.h" />
+    <ClInclude Include="varianta-7.h" />
+    <ClInclude Include="varianta-8-functii.h" />
+    <ClInclude Include="varianta-8-structuri.h" />
+    <ClInclude Include="varianta-8.h" />
+    <ClInclude Include="varianta-9-functii.h" />
+    <ClInclude Include="varianta-9-structuri.h" />
+    <ClInclude Include="varianta-9.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="angajati.txt" />
@@ -144,6 +174,9 @@
     <Text Include="spectacole.txt" />
     <Text Include="studenti-examinare.txt" />
     <Text Include="studenti.txt" />
+    <Text Include="varianta1subiectul3problema2.txt" />
+    <Text Include="varianta1subiectul3problema3.txt" />
+    <Text Include="varianta2subiectul3problema3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

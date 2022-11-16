@@ -1,6 +1,6 @@
-#include "solutii.h"
+#include "varianta-2.h"
 
 int main()
 {
-    solutiePb9();
+	subiectul3Problema3();
 }

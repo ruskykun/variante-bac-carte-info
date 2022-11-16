@@ -1,0 +1,1 @@
+#include "varianta-7-structuri.h"
