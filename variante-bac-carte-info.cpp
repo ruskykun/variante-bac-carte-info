@@ -1,4 +1,4 @@
-#include "varianta-2.h"
+#include "varianta-3.h"
 
 int main()
 {
