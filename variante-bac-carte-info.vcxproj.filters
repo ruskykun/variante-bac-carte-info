@@ -211,5 +211,14 @@
     <Text Include="varianta6subiectul3problema3.txt">
       <Filter>Variante\Varianta 6</Filter>
     </Text>
+    <Text Include="varianta7subiectul3problema2.txt">
+      <Filter>Variante\Varianta 7</Filter>
+    </Text>
+    <Text Include="varianta7subiectul3problema3out.txt">
+      <Filter>Variante\Varianta 7</Filter>
+    </Text>
+    <Text Include="varianta7subiectul3problema3in.txt">
+      <Filter>Variante\Varianta 7</Filter>
+    </Text>
   </ItemGroup>
 </Project>

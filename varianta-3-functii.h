@@ -80,4 +80,5 @@ void rezolvareSub3Pb3(int n, int m, int k) {
 			f << i << " ";
 		}
 	}
+	f.close();
 }

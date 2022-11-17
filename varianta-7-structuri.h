@@ -4,4 +4,9 @@
 
 using namespace std;
 
+struct Punct {
+	float x;
+	float y;
+};
+
 
