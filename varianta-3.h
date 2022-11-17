@@ -33,7 +33,7 @@ void subiectul2Problema2() {
 // =============
 
 // Problema 2
-// Subprogramul numar are doi parametrii.
+// Subprogramul numar are doi parametri.
 // n, numar natural [2, 10^9]
 // m, numar natural [2, 10^9], cel mai mare
 // numar natural care se poate obtine folosind

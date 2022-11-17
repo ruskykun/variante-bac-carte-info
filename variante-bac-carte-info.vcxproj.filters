@@ -196,5 +196,20 @@
     <Text Include="varianta3subiectul3problema3.txt">
       <Filter>Variante\Varianta 3</Filter>
     </Text>
+    <Text Include="varianta4subiectul3problema3.txt">
+      <Filter>Variante\Varianta 4</Filter>
+    </Text>
+    <Text Include="varianta5subiectul2problema2.txt">
+      <Filter>Variante\Varianta 5</Filter>
+    </Text>
+    <Text Include="varianta5subiectul3problema3.txt">
+      <Filter>Variante\Varianta 5</Filter>
+    </Text>
+    <Text Include="varianta6subiectul3problema2.txt">
+      <Filter>Variante\Varianta 6</Filter>
+    </Text>
+    <Text Include="varianta6subiectul3problema3.txt">
+      <Filter>Variante\Varianta 6</Filter>
+    </Text>
   </ItemGroup>
 </Project>

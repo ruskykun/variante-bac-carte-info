@@ -49,7 +49,7 @@ void subiectul2Problema2() {
 // =============
 
 // Problema 2
-// Subprogramul numarare are doi parametrii :
+// Subprogramul numarare are doi parametri :
 // a, prin care defineste un numar natural [2, 20000]
 // b, prin care defineste un numar natural [2, 20000]
 // Subprogramul returneaza numarul de valori din

@@ -30,7 +30,7 @@ void subiectul2Problema2() {
 // =============
 
 // Problema 2
-// Subprogramul numarare are patru parametrii :
+// Subprogramul numarare are patru parametri :
 // n, prin care primeste un nr. natural (2 <= n <= 20)
 // m, prin care primeste un numar natural (2 <= m <= 20)
 // a, prin care primeste un tablou unidimensional

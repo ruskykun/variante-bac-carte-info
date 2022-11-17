@@ -4,4 +4,8 @@
 
 using namespace std;
 
+struct Complex {
+	int pre;
+	int pim;
+};
 

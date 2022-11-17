@@ -178,6 +178,11 @@
     <Text Include="varianta1subiectul3problema3.txt" />
     <Text Include="varianta2subiectul3problema3.txt" />
     <Text Include="varianta3subiectul3problema3.txt" />
+    <Text Include="varianta4subiectul3problema3.txt" />
+    <Text Include="varianta5subiectul2problema2.txt" />
+    <Text Include="varianta5subiectul3problema3.txt" />
+    <Text Include="varianta6subiectul3problema2.txt" />
+    <Text Include="varianta6subiectul3problema3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
