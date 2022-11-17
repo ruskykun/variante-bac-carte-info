@@ -209,3 +209,199 @@ void rezolvarePb4(Excursie e[], int n, string numed) {
 	}
 }
 
+// Pentru Problema 5
+
+void citirePb5(Angajat a[], int& n) {
+	ifstream f("angajati.txt");
+	n = 0;
+	while (!f.eof()) {
+		Angajat angajat;
+		f >> angajat.nume;
+		f >> angajat.functie;
+		f >> angajat.departament;
+		f >> angajat.salariu_baza;
+		f >> angajat.ora_sp;
+		f >> angajat.nr_ore_sp;
+		f >> angajat.total_sporuri;
+		angajat.calculareSalariuObtinut();
+
+		a[n] = angajat;
+		n++;
+	}
+	f.close();
+}
+
+int salariuMaxProductie(Angajat a[], int n) {
+	int max = 0;
+	for (int i = 0; i < n; i++) {
+		if (a[i].departament == "Productie") {
+			if (a[i].salariu_obt > max) {
+				max = a[i].salariu_obt;
+			}
+		}
+	}
+	return max;
+}
+
+int totalOreMarketing(Angajat a[], int n) {
+	int count = 0;
+	for (int i = 0; i < n; i++) {
+		if (a[i].departament == "Marketing") {
+			count += a[i].nr_ore_sp;
+		}
+	}
+	return count;
+}
+
+// Pentru Problema 6
+
+void citirePb6(Student st[], int& n) {
+	ifstream f("studenti.txt");
+	n = 0;
+	while (!f.eof()) {
+		Student student;
+		f >> student.nume;
+		f >> student.grupa;
+		f >> student.an_studiu;
+		f >> student.nr_credite;
+		student.completareBursa();
+
+		st[n] = student;
+		n++;
+	}
+	f.close();
+}
+
+void afisareDateStudentiBursa(Student st[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (st[i].bursa == "Da") {
+			st[i].afisareDate();
+		}
+	}
+}
+
+// Pentru Problema 7
+
+void citirePb7(StudentExaminare st[], int& n) {
+	ifstream f("studenti-examinare.txt");
+	n = 0;
+	while (!f.eof()) {
+		StudentExaminare student;
+		f >> student.nume;
+		f >> student.grupa;
+		f >> student.m;
+		for (int i = 0; i < student.m; i++) {
+			f >> student.e[i].tip_examinare;
+			f >> student.e[i].disciplina;
+			f >> student.e[i].nr_credite;
+		}
+		f >> student.an_studiu;
+		student.calculareNrTotalCredite();
+
+		st[n] = student;
+		n++;
+	}
+	f.close();
+}
+
+void afisareDateDacaCrediteProiecte(StudentExaminare st[], int n) {
+	for (int i = 0; i < n; i++) {
+		st[i].afisareDateStudentDacaAreCrediteLaProiecte();
+	}
+}
+
+int nrTotalPunctajMaximStudenti(StudentExaminare st[], int n) {
+	int count = 0;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < st[i].m; j++) {
+			if (st[i].e[j].nr_credite == 7) {
+				count++;
+			}
+		}
+	}
+	return count;
+}
+
+// Pentru Problema 8
+
+void citirePb8(Spectacol sp[], int& n) {
+	ifstream f("spectacole.txt");
+	n = 0;
+	while (!f.eof()) {
+		Spectacol spectacol;
+		Data data;
+		f >> spectacol.denumire;
+		f >> spectacol.autor;
+		f >> data.zi;
+		f >> data.luna;
+		f >> data.an;
+		spectacol.data_sp = data;
+		f >> spectacol.nr_bilete;
+		f >> spectacol.pret;
+
+		sp[n] = spectacol;
+		n++;
+	}
+	f.close();
+}
+
+int sumaIncasataMai2019(Spectacol sp[], int n) {
+	int suma = 0;
+	for (int i = 0; i < n; i++) {
+		if (sp[i].data_sp.luna == 5 && sp[i].data_sp.an == 2019) {
+			suma += sp[i].nr_bilete * sp[i].pret;
+		}
+	}
+	return suma;
+}
+
+void afisareDateILCaragiale(Spectacol sp[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (sp[i].autor == "I.L.Caragiale") {
+			sp[i].afisareData();
+		}
+	}
+}
+
+// Pentru Problema 9
+
+void citirePb9(Conferinta c[], int& n) {
+	ifstream f("conferinte.txt");
+	n = 0;
+	while (!f.eof()) {
+		Conferinta conferinta;
+		Data data;
+		f >> conferinta.denumire;
+		f >> conferinta.tara;
+		f >> conferinta.oras;
+		f >> conferinta.nume;
+		f >> conferinta.tematica;
+		f >> data.zi;
+		f >> data.luna;
+		f >> data.an;
+		conferinta.data_conf = data;
+		f >> conferinta.tip_inreg;
+
+		c[n] = conferinta;
+		n++;
+	}
+	f.close();
+}
+
+void afisareNumeLectoriArticole2019(Conferinta c[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (c[i].data_conf.an == 2019 && c[i].tematica == "IT" && c[i].tip_inreg == "lector" && (c[i].tara == "Romania" || c[i].tara == "SUA" || c[i].tara == "Japonia")) {
+			cout << c[i].nume << endl;
+		}
+	}
+}
+
+void afisareNumeParticipantiAprilie2019Iasi(Conferinta c[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (c[i].data_conf.luna == 4 && c[i].data_conf.an == 2019 && c[i].oras == "Iasi" && c[i].tara == "Romania") {
+			cout << c[i].nume << endl;
+		}
+	}
+}
+
+

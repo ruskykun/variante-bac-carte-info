@@ -1,0 +1,8 @@
+Napasta I.L.Caragiale 14 5 2019 160 30
+Concert Gabriel 29 5 2019 120 25
+Comedie Andrei 4 2 2019 230 25
+Epoca I.L.Caragiale 4 10 2019 100 25
+Concert Alex 4 5 2019 210 30
+Concert Cosmin 30 5 2019 190 40
+Vatra I.L.Caragiale 16 2 2019 150 25
+Concert Radu 2 2 2019 140 25

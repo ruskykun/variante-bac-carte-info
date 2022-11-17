@@ -1,0 +1,15 @@
+Gabi Manager Marketing 4600 65 5 10
+George Paza Marketing 2600 50 12 15
+Maria Manual Marketing 3100 55 8 5
+Elena Designer Productie 3700 60 7 5
+Florin Sef Productie 4800 70 6 15
+Iulian Designer Productie 3700 60 10 10
+Andrei Manual Inventar 3000 55 12 5
+Gabriela Manager Inventar 4500 65 4 5
+Cosmin Paza Inventar 2700 50 0 10
+Rares Manual Productie 2900 55 9 10
+Radu Manual Productie 2900 55 4 5
+Adrian Contabil Inventar 3400 60 9 10
+Alexandru Manual Inventar 3000 55 1 15
+Flavius Paza Inventar 2700 50 15 20
+Marian Designer Marketing 3800 60 10 10

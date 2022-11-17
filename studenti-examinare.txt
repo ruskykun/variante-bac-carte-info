@@ -1,0 +1,43 @@
+Gabriel Fizica 3
+scris Termodinamica 5
+oral Termodinamica 0
+oral Aerodinamica 0
+2019
+Marius Mate 5
+scris Algebra 7
+proiect Geometrie 0
+proiect Algebra 6
+scris Analiza 0
+oral Algebra 5
+2020
+George Mate 5
+scris Algebra 4
+proiect Geometrie 7
+proiect Algebra 0
+scris Analiza 6
+oral Algebra 7
+2018
+Ana Fizica 3
+scris Termodinamica 5
+oral Termodinamica 0
+oral Aerodinamica 4
+2019
+Andrei Limbi 4
+proiect Germana 7
+proiect Engleza 0
+scris Engleza 5
+oral Engleza 6
+2020
+Paul Limbi 4
+proiect Germana 4
+proiect Engleza 0
+scris Engleza 2
+oral Engleza 4
+2019
+Cristi Mate 5
+scris Algebra 0
+proiect Geometrie 5
+proiect Algebra 7
+scris Analiza 6
+oral Algebra 3
+2021
