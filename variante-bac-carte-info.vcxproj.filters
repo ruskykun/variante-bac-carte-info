@@ -51,11 +51,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="variante-bac-carte-info.cpp">
-      <Filter>Probleme\Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="structuri.h">
       <Filter>Probleme\Header Files</Filter>
     </ClInclude>
@@ -220,5 +215,17 @@
     <Text Include="varianta7subiectul3problema3in.txt">
       <Filter>Variante\Varianta 7</Filter>
     </Text>
+    <Text Include="varianta9subiectul2problema2.txt">
+      <Filter>Variante\Varianta 9</Filter>
+    </Text>
+    <Text Include="varianta9subiectul3problema3.txt">
+      <Filter>Variante\Varianta 9</Filter>
+    </Text>
+    <Text Include="varianta10subiectul3problema3.txt">
+      <Filter>Variante\Varianta 10</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="variante-bac-carte-info.cpp" />
   </ItemGroup>
 </Project>

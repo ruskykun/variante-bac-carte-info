@@ -4,4 +4,8 @@
 
 using namespace std;
 
-
+struct Triunghi {
+	float a;
+	float b;
+	float c;
+};
