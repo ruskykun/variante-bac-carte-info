@@ -1,4 +1,16 @@
-#include "varianta-3-functii.h"
+#include "varianta-3-combinare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// Sa se genereze submultimile multimii {1,2,3,4,5}.
+// Cate submultimi au elementul 2 dar nu 4?
+
+void subiectul1Problema3() {
+	rezolvareCombinareSub1Pb3();
+}
 
 // ============
 // Subiectul II

@@ -1,4 +1,16 @@
-#include "varianta-1-functii.h"
+#include "varianta-1-permutare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// Afisare permutari de n + numarul de permutari formate.
+// CONDITIE : - Sa nu existe puncte fixe -
+
+void subiectul1Problema3() {
+	rezolvarePermutareSub1Pb3();
+}
 
 // ============
 // Subiectul II

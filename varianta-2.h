@@ -1,4 +1,17 @@
-#include "varianta-2-functii.h"
+#include "varianta-2-combinare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// Sa se genereze submultimile de 3 numere ale
+// multimii {5, 6, 7, 8}.
+// Care este antepenultima submultime?
+
+void subiectul1Problema3() {
+	rezolvareCombinareSub1Pb3();
+}
 
 // ============
 // Subiectul II

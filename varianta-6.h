@@ -1,4 +1,21 @@
-#include "varianta-6-functii.h"
+#include "varianta-6-permutare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// ENUNT :
+// Intr-o urna sunt 5 bile albe si 3 bile negre.
+// Care este numarul configuratiilor distincte care se 
+// pot obtine prin extragerea bilelor din urna si asezarea
+// lor in linie in ordinea extragerii?
+// 
+// Problema gresita.
+
+void subiectul1Problema3() {
+	rezolvarePermutareSub1Pb3();
+}
 
 // ============
 // Subiectul II

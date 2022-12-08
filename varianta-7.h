@@ -1,4 +1,18 @@
-#include "varianta-7-functii.h"
+#include "varianta-7-combinare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// Un copil are in biblioteca personala 10 carti in limba romana, 4 carti
+// in limba germana si 6 carti in limba engleza. Acesta trebuie sa duca la
+// scoala doua carti scrise in limbi diferite.
+// Cate posibilitati de alegere a cartilor are?
+
+void subiectul1Problema3() {
+	rezolvareCombinareSub1Pb3();
+}
 
 // ============
 // Subiectul II

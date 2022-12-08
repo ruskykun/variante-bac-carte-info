@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functii.h" />
+    <ClInclude Include="varianta-1-permutare-subiectul-1.h" />
     <ClInclude Include="solutii.h" />
     <ClInclude Include="structuri.h" />
     <ClInclude Include="varianta-1-functii.h" />
@@ -139,9 +140,11 @@
     <ClInclude Include="varianta-10-functii.h" />
     <ClInclude Include="varianta-10-structuri.h" />
     <ClInclude Include="varianta-10.h" />
+    <ClInclude Include="varianta-2-combinare-subiectul-1.h" />
     <ClInclude Include="varianta-2-functii.h" />
     <ClInclude Include="varianta-2-structuri.h" />
     <ClInclude Include="varianta-2.h" />
+    <ClInclude Include="varianta-3-combinare-subiectul-1.h" />
     <ClInclude Include="varianta-3-functii.h" />
     <ClInclude Include="varianta-3-structuri.h" />
     <ClInclude Include="varianta-3.h" />
@@ -152,11 +155,16 @@
     <ClInclude Include="varianta-5-structuri.h" />
     <ClInclude Include="varianta-5.h" />
     <ClInclude Include="varianta-6-functii.h" />
+    <ClInclude Include="varianta-6-permutare-subiectul-1.h" />
     <ClInclude Include="varianta-6-structuri.h" />
     <ClInclude Include="varianta-6.h" />
+    <ClInclude Include="varianta-7-combinare-structuri-subiectul-1.h" />
+    <ClInclude Include="varianta-7-combinare-subiectul-1.h" />
     <ClInclude Include="varianta-7-functii.h" />
     <ClInclude Include="varianta-7-structuri.h" />
     <ClInclude Include="varianta-7.h" />
+    <ClInclude Include="varianta-8-combinare-structuri-subiectul-1.h" />
+    <ClInclude Include="varianta-8-combinare-subiectul-1.h" />
     <ClInclude Include="varianta-8-functii.h" />
     <ClInclude Include="varianta-8-structuri.h" />
     <ClInclude Include="varianta-8.h" />

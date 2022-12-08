@@ -1,4 +1,18 @@
-#include "varianta-8-functii.h"
+#include "varianta-8-combinare-subiectul-1.h"
+
+// ===========
+// Subiectul I
+// ===========
+
+// Problema 3
+// La examenul de Bacalaureat la Subiectul I sunt cinci itemi
+// de tip grila, fiecare item avand 4 variante de raspuns. In cate
+// moduri pot fi completate raspunsurile la acest subiect, daca
+// exista posibilitatea de a nu completa niciun raspuns?
+
+void subiectul1Problema3() {
+	rezolvareCombinareSub1Pb3();
+}
 
 // ============
 // Subiectul II

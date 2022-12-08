@@ -150,6 +150,30 @@
     <ClInclude Include="varianta-9-structuri.h">
       <Filter>Variante\Varianta 9</Filter>
     </ClInclude>
+    <ClInclude Include="varianta-1-permutare-subiectul-1.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-permutare-subiectul-1.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-combinare-structuri-subiectul-1.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-combinare-structuri-subiectul-1.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="melodii.txt">
